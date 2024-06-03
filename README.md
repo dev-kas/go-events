@@ -5,7 +5,18 @@ A [`node:events`](https://nodejs.org/api/events.html) replica from NodeJs
 
 Install via
 ```sh
-go get glitchiethedev.com/events
+go get github.com/dev-kas/go-events
+```
+
+Import it via
+```go
+import "github.com/dev-kas/go-events"
+// or
+import (
+    ...
+    "github.com/dev-kas/go-events"
+    ...
+)
 ```
 
 Create a new `EventEmitter` via

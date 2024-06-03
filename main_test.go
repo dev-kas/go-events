@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"glitchiethedev.com/events"
+	"github.com/dev-kas/go-events"
 )
 
 func Test(t *testing.T) {
